@@ -1,0 +1,119 @@
+#logo{
+  color:red;
+}
+
+#nav li  {
+  color:blue;
+}
+
+#nav li a:visited {
+  color:green;
+}
+
+
+#above-the-fold{
+  color:white;
+
+}
+
+#above-the-fold .card p{
+background-color: #90EE90;
+
+}
+
+
+
+.card button{
+background-color: white;
+
+}
+
+p:first-letter {
+  margin-left: 30px;
+}
+
+#blog{
+background-color: #666;
+color:#cff;
+}
+
+
+#gallery figure:hover{
+box-shadow: 10px 10px 10px black ;
+
+}
+
+
+#gallery figcaption{
+
+padding-left: 8px;
+padding-top: 8px;
+padding-right: 8px;
+padding-bottom: 8px;
+
+}
+
+
+article h3{
+text-align: center;
+
+}
+
+article{
+  margin-top: 40px;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+
+ form input {
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+padding:10px;
+
+}
+
+
+textarea{
+  display: block;
+}
+
+
+ input [type="submit"]{
+   display:block;
+ }
+
+
+ footer{
+   background-color: rgb(169,169,169);
+   color:#f3602f;
+ }
+
+
+
+ form input:focus{
+border-color: green;
+}
+
+
+
+form  textarea input:focus{
+border-color: green;
+}
+
+
+h2::before{
+content: "**";
+
+}
+
+
+form [type="radio"]{
+
+  margin-left: 20px;
+  margin-right: 5px;
+}
